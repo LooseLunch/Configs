@@ -4,7 +4,7 @@ icon="$HOME/.config/i3/icon.png"
 tmpbg='/tmp/screen.png'
 xRes=$(echo 1280 - 623)
 
-(( $# )) && { icon=$1; }
+#(( $# )) && { icon=$1; }
 
 rm -f "$tmpbg"
 
